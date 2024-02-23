@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Booking</title>
+        <style>
+            body {
+                background-color: #1a1a1a;
+                margin: 0 20%;
+                font-family: 'Lucida Sans';
+                color: #ffffff;
+            }
+            h1 {
+                color: #ffffff;
+                text-align: center;
+                font-family: Georgia;
+                font-weight: normal;
+                text-transform: uppercase;
+                margin-top: 30px;
+            }
+            h2 {
+                color: #dea976;
+                font-size: 1em;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+        
+            li {
+                padding: 5px;
+                display: inline;
+                background-color: #dea976;
+            }
+        </style>
+    </head>
+    <body>
+        <center><img src="logo.png" alt="gambar logo angkringan"></center>
+        <ul>
+            <li> <a href="angkringan_sedulur.html">Beranda</a></li>
+            <li> <a href="gallery.html">Gallery</a></li>
+            <li> <a href="booking.html">Booking</a></li>
+        </ul>
+        <h1>Sedulur Angkringan</h1>
+        <hr>
+        <h2>Formulir Booking Online</h2>
+        <p>Silahkan Isikan Data Anda Untuk Melakukan Booking Online</p>
+        <form action="#" method="POST">
+            <p>
+                <label>1.Nama Lengkap:</label>
+                <input type="text" name="nama" placeholder="Nama Lengkap..."/>
+            </p>
+            <p>
+                <label>2.E_mail:</label>
+                <input type="text" name="mail" placeholder="E-mail..."/>
+            </p>
+            <p>
+                <label>3.No Handphone:</label>
+                <input type="text" name="no hp" placeholder="No Handphone..."/>
+            </p>
+            <p>
+                <label>4.Jenis Tempat:</label>
+                <select name="Jns tp">
+                    <option value="lesehan">lesehan</option>
+                    <option value="di kursi">Menggunakan Meja</option>
+                </select>
+            </p>
+            <p>
+                <label>5.Jumlah Orang</label>
+                <input type="number" name="jmlh org" placeholder="Jumlah Orang..."/>
+            </p>
+            <p>
+                <label>6.Tanggal Reservasi</label>
+                <input type="date" name="tanggal rsr"/>
+            </p>
+            <p>
+                <label>7.Jam Reservasi</label>
+                <input type="time" name="jam rsv"/>
+            </p>
+            <p>
+                <center><input type="submit" name="submit" value="Submit Formulir"/></center>
+            </p>
+        </form>
+    </body>
+</html>
